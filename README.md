@@ -218,7 +218,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🔗 Project URL
 
-[Project Repository](https://github.com/akashdotdev-hub/server-performance-stats)
+[Project Repository](https://roadmap.sh/projects/server-stats)
 
 ⭐ If you find this useful, please consider giving it a star!
 
