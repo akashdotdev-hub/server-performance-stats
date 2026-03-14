@@ -1,21 +1,11 @@
-@@ -1,14 +1,213 @@
-Overview
-This project is a simple Bash script that analyzes and displays key server performance statistics directly from the terminal.
 # 📊 Server Performance Stats
 
-It provides a quick snapshot of system health including:
 <div align="center">
 
--CPU usage
--Memory usage
--Disk usage
--Top CPU consuming processes
--Top Memory consuming processes
 ![Bash](https://img.shields.io/badge/bash-%235100CA?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/status-active-brightgreen?style=for-the-badge)
 
-The goal of this script is to practice Linux command-line tools like top, awk, free, df, and ps while building a useful system monitoring utility.
 A lightweight, interactive Bash script for real-time server performance monitoring directly from your terminal.
 
 [Features](#-features) • [Quick Start](#-quick-start) • [Installation](#-installation) • [Usage](#-usage) • [Contributing](#-contributing)
@@ -42,6 +32,14 @@ A lightweight, interactive Bash script for real-time server performance monitori
 ## Overview
 
 **Server Performance Stats** is a simple yet powerful Bash script that provides a quick snapshot of your system's health. Monitor CPU, memory, disk usage, and identify resource-hungry processes all from your terminal—no GUI needed!
+
+It provides a quick snapshot of system health including:
+
+- 🔴 CPU usage
+- 🟢 Memory usage
+- 💾 Disk usage
+- ⚡ Top CPU consuming processes
+- 🎯 Top Memory consuming processes
 
 Perfect for system administrators, DevOps engineers, and anyone who wants to understand their server's performance at a glance.
 
@@ -225,5 +223,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ⭐ If you find this useful, please consider giving it a star!
 
 </div>
-
-
