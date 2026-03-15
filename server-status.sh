@@ -35,3 +35,37 @@ echo "####==== Top 5 Memory Processes ====####"
 
 # List all processes sorted by highest Memory usage and display the top 5
 ps aux --sort=-%mem | head -6
+
+
+echo "####==== SYSTEM INFORMATION ====####"
+
+# OS Version
+echo "OS Version:"
+cat /etc/os-release | grep PRETTY_NAME | cut -d= -f2 | tr -d '"'
+
+echo ""
+
+# System uptime
+echo "System Uptime:"
+uptime -p
+
+echo ""
+
+# Load Average
+echo "Load Average:"
+uptime | awk -F'load average:' '{ print $2 }'
+
+echo ""
+
+# Logged in users
+echo "Logged In Users:"
+who
+
+echo ""
+
+echo "####==== FAILED LOGIN ATTEMPTS ====####"
+
+# Count failed login attempts
+grep "Failed password" /var/log/auth.log 2>/dev/null | wc -l
+
+echo ""
